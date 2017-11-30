@@ -13,7 +13,7 @@ npm install music-wolff -g
 ### Usage
 
 ```
-music wolff -a "pink floyd" -s "hey you"
+music-wolff -a "pink floyd" -s "hey you"
 ```
 
 App will show:
