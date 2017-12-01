@@ -2,7 +2,6 @@
   "name": "music-wolff",
   "version": "1.0.1-beta-0",
   "description": "Get music in command line",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,5 +16,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/daronwolff/music-wolff.git"
-  }
+  },
+  "bin": {
+    "music-wolff": "./bin/index.js"
+  },
+  "main" : "./lib/index.js",
+  "preferGlobal": "true"
 }
